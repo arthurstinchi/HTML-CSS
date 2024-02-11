@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'gotico';
+            src: url(fontes/CloisterBlack.ttf) format(truetype), url(fontes/Chomsky.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+        */
+        body{
+            font-family: 'gotico';
+        }
+
+        h1{
+            font-family: 'gotico';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere exercitationem a ea ipsa quidem soluta sunt ad libero voluptatibus, harum, et expedita illum praesentium eum ipsum corrupti alias quam reprehenderit.</p>
+</body>
+</html>
