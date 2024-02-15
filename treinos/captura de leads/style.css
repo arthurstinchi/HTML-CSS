@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to left, #02DBE4, #000131);
+}
+
+div.conteiner {
+    max-width: 1280px;
+    margin: auto;
+}
+
+div.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+div.txt-leads {
+    text-align: center;
+}
+
+div.txt-leads h1 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: left;
+}
+
+div.txt-leads h1 span {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+div.txt-leads img{
+    width: 320px;
+    padding: 60px 0;
+}
+
+div.txt-leads p {
+    color: white;
+    font-size: 1.3em;
+}
+
+div.txt-leads p span{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+form {
+    width: 100%;
+    background-color: #00000055;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+form h2{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+form h2 span {
+    font-size: 0.5em;
+}
+
+div.input-box {
+    margin-bottom: 20px;
+}
+
+div.input-box label {
+    display: block;
+    color: white;
+}
+
+div.input-box input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+div.btn-enviar {
+    text-align: center;
+    margin-top: 40px;
+}
+
+div.btn-enviar input{
+    width: 140px;
+    height: 50px;
+    border: 0;
+    background-color: #01DAFE;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
