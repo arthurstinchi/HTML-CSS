@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #424147;
+}
+
+div.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+section.top-header > div.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.top-header {
+    background-color: white;
+    padding: 20px 4%;
+}
+
+section.top-header .logotipo img{
+    max-width: 240px;
+}
+
+section.top-header div.btn-social button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+section.bottom-header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    list-style-type: none;
+}
+
+section.bottom-header nav ul li a {
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    transition: 0.2s;
+}
+
+section.bottom-header nav ul li a:hover {
+    background-color: #ED6B86;
+    color: #424147;
+    box-shadow: inset 0 0 8px #0000003d;
+    
+}
+
+li.drop-hover {
+    position: relative;
+}
+
+li.drop-hover div.drop {
+    position: absolute;
+    background-color: #5a595c;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+li.drop-hover div.drop a {
+    padding: 20px 20px;
+}
+
+li.drop-hover:hover div.drop {
+    height: 230px;
+}
