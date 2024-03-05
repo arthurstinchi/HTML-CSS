@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    html, body {
+        height: 100%;
+    }
+
+    section.img {
+        width: 100%;
+        height: 100%;
+        background-image: url(imagens/foto-m.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+
+    .overlay:hover {
+        opacity: .5;
+    }
+    </style>
+    <title>Overlay</title>
+</head>
+<body>
+    <section class="img">
+        <div class="overlay">
+
+        </div><!-- overlay -->
+    </section><!-- img -->
+</body>
+</html>
