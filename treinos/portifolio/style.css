@@ -213,6 +213,7 @@ section.portifolio .flex {
     background-position: 100% 0%;
     border-radius: 40px;
     transition: 8s;
+    margin: 0 20px;
     cursor: pointer;
     position: relative;
 }
