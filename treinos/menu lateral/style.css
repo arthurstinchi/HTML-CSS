@@ -69,11 +69,13 @@ ul li.item-menu a {
 
 ul li.item-menu a .txt-link {
     margin-left: 70px;
-    transition: .5;
+    transition: 1s;
+    opacity: 0;
 }
 
 nav.menu-lateral.expandir .txt-link {
     margin-left: 40px;
+    opacity: 1;
 }
 
 ul li.item-menu a .icon > i {
