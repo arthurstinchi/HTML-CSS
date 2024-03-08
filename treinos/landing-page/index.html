@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="style.css">
     <title>BalleCoffe</title>
     <meta name="description" content="Explore dezenas de variações da bebida favorida entre os devs ao redor do mundo">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <span>ballecoffe</span>
-            <ul>
+            <a href="#">
+                <span class="logo">ballecoffe</span>
+            </a>
+            <ul class="menu">
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -25,29 +28,95 @@
                     <a href="#">Melhor Avaliado</a>
                 </li>
             </ul>
-            <a href="#">GitHub</a>
+            <a href="#" class="github">GitHub</a>
         </nav>
     </header>
     
     <main>
-        <section>
-            <header>
-                <span>
-                    novidade
-                </span>
-                <h1>Econtre a receita perfeita!</h1>
-                <hr>
-                <h2>Explore dezenas de variações da bebida favorida entre os devs ao redor do mundo!</h2>
-            </header>
-            <div></div>
+        <div class="fundo">
+            <section class="hero">
+                <header class="hero-content">
+                    <span class="destaque">
+                        novidade
+                    </span>
+                    <h1>Econtre a receita perfeita!</h1>
+                    <hr>
+                    <h2 class="hero-sub">Explore dezenas de variações da bebida favorida entre os devs ao redor do mundo!</h2>
+                </header>
+                <div class="hero-imags">
+                    <figure>
+                        <img src="imagens/image 10-1.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 10.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 11.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 12-1.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 12.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 13.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 14-1.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 14-1.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 15.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 16.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 17.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="imagens/image 18.png" alt="">
+                    </figure>
+                </div><!-- hero-imags -->
+            </section>
+        </div><!-- fundo -->
+        
+        <section class="btn-cotainer">
+            <button type="button">
+                <i class="bi bi-chevron-double-down"></i>
+            </button>
         </section>
         <section>
-
+            <header>
+                <span>receitas</span>
+                <h2>Confira as últimas receitas</h2>
+                <p>Dê uma olhada nas receitas mais amadas!</p>
+            </header>
+            <div>
+                <div>
+                    <header>
+                        <div>
+                            <span>Em alta</span>
+                            <h3>Cappuccino</h3>
+                        </div>
+                        <p>Extraordinário · 4/4 </p>
+                    </header>
+                    <p>Uma bebida ideal para os amantes de doce e cremosidade</p>
+                    <div>
+                        <img src="imagens/Avatar.png" alt="">
+                        <span>Rafaella Ballerini</span>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     
     <footer>
-
+        <p>Copyright &lt;CODEFEE /&gt; 2023</p>
+        <p>Feito com muito ❤ e café por Rafaella Ballerini</p>
     </footer>
 </body>
 </html>
