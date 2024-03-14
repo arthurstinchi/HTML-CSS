@@ -232,6 +232,7 @@ button {
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
+    margin-top: 2rem;
 }
 
 .receitas-card-header {
@@ -256,4 +257,38 @@ button {
 .receitas-avaliacao {
     color: var(--corfonte5);
     font-size: 1rem;
+}
+
+.receita-descricao {
+    color: var(--corfonte2);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receita-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.receita-autor-nome {
+    color: var(--corfonte2);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ESTILO FOOTER */
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--cor1);
+}
+
+.footer-autor {
+    opacity: 50%;
 }
